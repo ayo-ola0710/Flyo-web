@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FLYO</title>
+</head>
+<body>
+    <div>
+        <header class="mx-4 sm:mx-[50px]">
+            <nav> 
+                <div class="flex justify-between mt-8 sm:mt-11 mb-8 sm:mb-11">
+                    <img src="/logo.svg" alt="Logo" class="w-[100px] sm:w-[120px]">
+                    <div class="inline-block pt-[15px] space-x-4 sm:space-x-[30px] text-sm sm:text-base">
+                        <span>Features</span>
+                        <span>Team</span>
+                        <span>Sign in</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="grid grid-cols-1 sm:grid-cols-4 gap-y-10 sm:gap-y-0">
+            <div class="sm:col-span-2 ml-4 sm:ml-[50px]">
+                <p class="text-2xl sm:text-3xl lg:text-4xl mt-6 sm:mt-16 font-bold mb-5 font-serif">
+                    All your files in one secure <br class="hidden sm:block"> location, accessible anywhere.
+                </p>
+                <p class="text-sm sm:text-base mb-5 font-[Raleway]">
+                    Flyo stores your most important files in one secure location. Access <br class="hidden sm:block">
+                    them wherever you need, share and collaborate with friends, family, <br class="hidden sm:block">
+                    and co-workers.
+                </p>
+                <form class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" name="email" id="form" placeholder="Enter your Email" class="bg-slate-200 px-4 sm:px-[50px] py-2 sm:py-[6px] rounded-sm text-sm w-full sm:w-auto">
+                    <button class="bg-blue-600 px-6 sm:px-[20px] py-2 sm:py-[3px] rounded text-xs sm:text-sm text-white">
+                        Get Started
+                    </button>
+                </form>
+            </div>
+            <div class="sm:col-span-2">
+                <img src="/illustration-1.svg" alt="img1" class="w-full sm:w-[900px] h-auto mx-auto sm:float-right sm:mr-[100px]">
+            </div>
+            <div class="w-full sm:w-[1350px] bg-[#f6f6fe] grid grid-cols-1 sm:grid-cols-4 gap-y-10 sm:gap-y-0 pb-10 sm:pb-[70px]">
+                <div class="sm:col-span-2 mt-8 sm:mt-[100px] ml-4 sm:ml-[50px]">
+                    <h2 class="font-bold text-xl sm:text-3xl mb-4 sm:mb-[15px]">Stay productive, wherever you are</h2>
+                    <p class="text-sm sm:text-base mb-4 sm:mb-[10px]">
+                        Never let location be an issue when accessing your files, Flyo has you <br class="hidden sm:block"> 
+                        covered for all of your file storage needs.
+                    </p>
+                    <p class="text-sm sm:text-base mb-4 sm:mb-[10px]">
+                        Securely share files and folders with friends, family and colleagues for <br class="hidden sm:block"> 
+                        live collaboration. No email attachment required!
+                    </p>
+                    <a href="" class="flex items-center text-xs sm:text-sm text-green-500 underline decoration-1 underline-offset-4 mb-6 sm:mb-[40px]">
+                        See how Flyo works
+                        <img src="/icon-arrow.svg" alt="arrow img" class="ml-1 sm:ml-[5px]">
+                    </a>
+                    <section class="rounded bg-white p-4 sm:p-[20px] w-full sm:w-[50%]">
+                        <p class="text-sm mb-4 sm:mb-[15px]">
+                            <img src="/icon-quotes.svg" alt="quote img" class="mb-4 sm:mb-[10px]">
+                            Flyo has improved our team productivity by <br>
+                            an order of magnitude. Since making the <br> 
+                            switch, our team has become a well-oiled <br>
+                            collaboration machine.
+                        </p>
+                        <section class="flex items-center">
+                            <img src="/avatar-testimonial.jpg" alt="avatar img" class="rounded-full w-[40px]">
+                            <span class="ml-4">
+                                <p class="text-sm font-bold">Kyle Burton</p>
+                                <p class="text-xs">Founder & CEO, Huddle</p>
+                            </span>
+                        </section>
+                    </section>
+                </div>
+                <div class="sm:col-span-2">
+                    <img src="/illustration-2.svg" alt="img2" class="w-[300px] sm:w-[500px] mx-auto sm:mt-[90px]">
+                </div>
+            </div>
+        </main>
+        <section class="bg-[#585989] flex flex-col sm:flex-row justify-between items-center pt-10 sm:pt-[80px] pb-8 sm:pb-[60px] px-4 sm:px-[60px]">
+            <div>
+                <h3 class="text-white font-bold text-xl sm:text-3xl mb-4 sm:mb-[20px]">Get early access today</h3>
+                <p class="text-white text-sm sm:text-base">
+                    It only takes a minute to sign up, and our free starter tier is <br class="hidden sm:block">
+                    extremely generous. If you have any questions, our support team <br class="hidden sm:block">
+                    will be happy to help you.
+                </p>
+            </div>
+            <form class="mt-6 sm:mt-0 flex flex-col sm:flex-row gap-4">
+                <input type="email" name="gmail" id="email" placeholder="Email@example.com" class="px-4 sm:px-[80px] py-2 sm:py-[5px] rounded text-sm w-full sm:w-auto">
+                <button class="bg-blue-600 px-6 sm:px-[30px] py-2 sm:py-[4px] rounded text-xs sm:text-sm text-white">
+                    Get Started for Free
+                </button>
+            </form>
+        </section>
+        <footer class="bg-[#070439] px-4 sm:px-[50px] py-8 sm:py-[60px] flex flex-col sm:flex-row justify-between gap-10 sm:gap-0">
+            <section>
+                <img src="/logo.svg" alt="logo2" class="w-[100px] sm:w-[150px] bg-white p-2 sm:p-[10px]">
+                <p class="flex items-center mt-4">
+                    <img src="/icon-phone.svg" alt="phone" class="w-[15px] h-[15px]">
+                    <span class="text-white ml-2 text-sm">Phone: +1-543-123-4567</span>
+                </p>
+                <p class="flex items-center mt-4">
+                    <img src="/icon-email.svg" alt="email" class="w-[15px] h-[15px]">
+                    <span class="text-white ml-2 text-sm">example@flyo.com</span>
+                </p>
+            </section>
+            <section class="flex text-white text-sm gap-10">
+                <ul>
+                    <li class="mb-2">About us</li>
+                    <li class="mb-2">Jobs</li>
+                    <li class="mb-2">Press</li>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <li class="mb-2">Contact us</li>
+                    <li class="mb-2">Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </section>
+            <section class="flex gap-4">
+                <a href=""><img src="/facebook_6422199.svg" alt="facebook image" class="bg-white w-[20px] rounded-full"></a>
+                <a href=""><img src="/instagram_6422200.svg" alt="instagram image" class="bg-white w-[20px] rounded-full"></a>
+                <a href=""><img src="/twitter-alt-square_12107611.svg" alt="twitter image" class="bg-white w-[20px] rounded-full"></a>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
